@@ -11,19 +11,26 @@ function App() {
   const inProgressTask = tasks.filter((ele => ele.state === "in_progress" || ele.state === "backlog"));
   const completedTask = tasks.filter((ele => ele.state === "completed"));
 
-  console.log(inProgressTask,completedTask);
+  //console.log(inProgressTask, completedTask);
   return (
-    <>
-      <div>
-        <h1>Task Manager</h1>
-      </div>
-      <div>
-        <h3>Current Task ({inProgressTask.length})</h3>
-      </div>
-      <hr />
-      <div>
-        <h3>Current Task ({completedTask.length})</h3>
-      </div>
+    <><div className='container'>
+
+        <div>
+          <h1>Task Manager</h1>
+        </div>
+
+        <div>
+          <h3>Current Task ({inProgressTask.length})</h3>
+        </div>
+
+        <hr />
+
+        <div>
+          <h3>Current Task ({completedTask.length})</h3>
+        </div>
+
+    </div>
+
     </>
   )
 }
