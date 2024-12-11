@@ -1,4 +1,4 @@
-const tasks = [
+export const tasks = [
     {
         id: 1,
         title: "Implementare la homepage",
@@ -70,5 +70,3 @@ const tasks = [
         state: "in_progress"
     }
 ];
-
-module.exports = { tasks };
