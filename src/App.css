@@ -1,0 +1,29 @@
+*{
+    font-weight: 500;
+}
+header{
+    background-color: #7FFFD3;
+}
+ul {
+    list-style: none;
+   
+    list-style-position: inside;
+}
+ol,ul{
+    padding-left: 0rem !important;
+}
+
+li{
+    margin-left: 0;
+}
+
+p{
+    line-height: .5;
+}
+
+.status{
+    color: white;
+    font-size: .8rem;
+    padding: 5px 10px;
+    background-color: #D2691E;
+}
