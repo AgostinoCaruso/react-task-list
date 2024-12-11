@@ -9,8 +9,6 @@ import { mainContent } from '../components/mainContent'
 
 function App() {
 
-
-  //console.log(inProgressTask, completedTask);
   return (
     <>
       {header}
